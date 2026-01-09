@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import useApp from "../hooks/useApp";
 import InstalledOneAppDetails from "../component/InstalledOneAppDetails";
-// import { getInstalledApp, removeFromInstallDB } from "../hooks/addToDB";
+import { getInstalledApp, removeFromInstallDB } from "../hooks/addToDB";
 import Loader from "../component/Loader";
 
 const Installation = () => {
