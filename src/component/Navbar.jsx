@@ -1,6 +1,6 @@
 import { Github, House } from "lucide-react";
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+// import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
