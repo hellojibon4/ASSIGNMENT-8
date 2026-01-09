@@ -24,11 +24,11 @@ const Allapps = () => {
     if (search) {
       const timer = setTimeout(() => {
         setLoading(false);
-      }, 300); 
+      }, 300); // টাইপ করার 300ms পরে লোডিং বন্ধ
 
-      return () => clearTimeout(timer); 
+      return () => clearTimeout(timer); // টাইপ থামার আগেই আগের টাইমার clear
     } else {
-      setLoading(false); 
+      setLoading(false); // search empty হলে সাথে সাথে লোডিং বন্ধ
     }
   }, [search, setLoading]);
 
